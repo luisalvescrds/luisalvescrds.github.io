@@ -5,44 +5,119 @@
         <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <style>
+    
+    #titulo{
+      text-align: center;
+    }
+    
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(69, 156, 69);
+      text-align: center;
+    }
+    img{
+      border-radius: 10%;
+      border: 5px solid rgb(153, 236, 153);
+      display: block;
+      margin: 0 auto;
+    }
+    ul,a{
+      font-style: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+    #conhecimentos_2 {
+      
+    }
+    #redes_2{
+      
+    }
+    #habilidades_2{
+      
+    }
+    h3{
+      font-family: 'Montserrat', sans-serif;
+    }
+    #sobre{
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      font-size: 30px;
+      font-style: normal;
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(69, 156, 69);
+      p
+      
+    }
+    a:visited {
+      color: none;
+    }
+    .blue-button{
+      background-color: rgb(89, 203, 255);
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 10px 20px;
+      border: none;
+
+    }
+    .black-button{
+      background-color: rgb(34, 34, 34);
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 10px 20px;
+      border: none;
+    }
+    button{
+      background-color: rgb(69, 156, 69);
+      color: aliceblue;
+      border-radius: 5px;
+      padding: 10px 20px;
+      border: none;
+    }
+  
+
 
   </style>
   <body>
     <!--PARTE 1-->
     <ul>
-        <li><a href="#conhecimentos">Conhecimentos</a></li>
-        <li><a href="#redes">Redes Sociais</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <a id="conhecimentos_2" href="#conhecimentos"> <button type="button">Conhecimentos</button> </a><br>
+        <a id="redes_2" href="#redes"><button type="button"> Sociais</button></a><br>
+        <a id= "habilidades_2"href="#habilidades"><button type="button"> Habilidades</button></a><br>
     </ul>
     
-    <h1>Oi, me chamo <em>Luis Felipe Alves Cardoso</em>,<br>
+    <h1 id="titulo" >Oi, me chamo <em>Luis Felipe Alves Cardoso</em>,<br>
     e este é meu <strong>Portifólio.</strong></h1>
     <img id="foto_luis"src="Imagens/Design sem nome (1).png" alt="foto de luis sorrindo">
     <br>
     <h1>Quem sou eu?</h1>
-    <h3><p>Me chamo <a href="#foto_luis">Luis</a> , sou de Bom Despacho, Minas Gerais.
-      sou brasileiro, com muito orgulho.<br> Atualmente estou estudando na <strong>Trybe</strong>
+    <h3 id="sobre"><p>Me chamo <a id="luis_2" href="#foto_luis">Luis</a> , sou de Bom Despacho, Minas Gerais.<br>
+      sou brasileiro, com muito orgulho.<br> Atualmente estou estudando na <strong>Trybe</strong><br>
       para poder futuramente me tornar um desenvolvedor.
     </p></h3>
     <!--PARTE 2-->
     <h1 id="conhecimentos">Conhecimentos:</h1>
     <ul><h3>
-        <li>Git & Github</li>
-        <li>HTML & CSS</li>
+        Git & Github<br>
+        HTML & CSS<br>
     </ul></h3>
     <h1 id="habilidades">Habilidades:</h1>
     <ul><h3>
-        <li>Colaboração</li>
-        <li>Saber conversar</li>
-        <li>Comprometimento</li>
-        <li>Dedicação e Empenho</li>
+        Colaboração<br>
+        Saber conversar<br>
+        Comprometimento<br>
+        Dedicação e Empenho<br>
     </ul></h3>
     <!--PARTE 3-->
     <h1 id="redes">Onde me encontrar:</h1>
     <ul>
-        <li><p><a href="https://www.linkedin.com/in/luisalvescrds/" target="_blank">Linkedin</a>
-        <li><p><a href="https://github.com/luisalvescrds" target="_blank">Github</a>
+        <p><a href="https://www.linkedin.com/in/luisalvescrds/" target="_blank"><button class="blue-button" type="button"> Linkedin</button></a><br>
+        <p><a href="https://github.com/luisalvescrds" target="_blank"> <button class="black-button" type="button"> Github</button></a><br>
+
        </ul>
 <!--PARTE 4-->
 
